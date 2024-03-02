@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.productContainer{
+  display:grid;
+  gap: 10px;
+  border: 2px solid red;
+  grid-template-columns: repeat(4, 1fr);
+}
+.product{
+  border: 2px solid green;
+  padding:12px;
+}
